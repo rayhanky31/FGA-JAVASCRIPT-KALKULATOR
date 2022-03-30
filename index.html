@@ -17,7 +17,6 @@
     <script src="script.js"></script>
     <title>KALKULATOR JAVASCRIPT</title>
 </head>
-
 <body>
     <div class="container">
         <form name="kalkulatorform">
@@ -28,48 +27,39 @@
             <table>
                 <tr>
                     <td><input class="button" type="button" name="btn7" value="7" onClick="valuecal(btn7.value)" /></td>
-                    <td> <input class="button" type="button" name="btn8" value="8" onClick="valuecal(btn8.value)" />
-                    </td>
+                    <td> <input class="button" type="button" name="btn8" value="8" onClick="valuecal(btn8.value)" /></td>
                     <td><input class="button" type="button" name="btn9" value="9" onClick="valuecal(btn9.value)" /></td>
-                    <td> <input class="button btn-z" type="button" name="btndivision" value="/"
-                            onClick="valuecal(btndivision.value)" /></td>
+                    <td> <input class="button btn-z" type="button" name="btndivision" value="/"onClick="valuecal(btndivision.value)" /></td>
                 </tr>
                 <tr>
                     <td><input class="button" type="button" name="btn4" value="4" onClick="valuecal(btn4.value)" /></td>
                     <td><input class="button" type="button" name="btn5" value="5" onClick="valuecal(btn5.value)" /></td>
                     <td><input class="button" type="button" name="btn6" value="6" onClick="valuecal(btn6.value)" /></td>
-                    <td><input class="button btn-z" type="button" name="btnmultiply" value="*"
-                            onClick="valuecal(btnmultiply.value)" /></td>
+                    <td><input class="button btn-z" type="button" name="btnmultiply" value="*" onClick="valuecal(btnmultiply.value)" /></td>
                 </tr>
                 <tr>
                     <td><input class="button" type="button" name="btn1" value="1" onClick="valuecal(btn1.value)" /></td>
                     <td><input class="button" type="button" name="btn2" value="2" onClick="valuecal(btn2.value)" /></td>
                     <td><input class="button" type="button" name="btn3" value="3" onClick="valuecal(btn3.value)" /></td>
-                    <td><input class="button btn-z" type="button" name="btnsubtract" value="-"
-                            onClick="valuecal(btnsubtract.value)" /></td>
+                    <td><input class="button btn-z" type="button" name="btnsubtract" value="-"onClick="valuecal(btnsubtract.value)" /></td>
                 </tr>
                 <tr>
                     <td> <input class="button btn-y" type="button" value="DEL" onclick="back()"></td>
                     <td><input class="button" type="button" name="btn0" value="0" onClick="valuecal(btn0.value)" /></td>
-                    <td><input class="button btn-z" type="button" name="btnDot" value="."
-                            onClick="valuecal(btnDot.value)" />
-                    </td>
-                    <td><input class="button btn-z" type="button" name="btnAddition" value="+"
-                            onClick="valuecal(btnAddition.value)" /></td>
-
+                    <td><input class="button btn-z" type="button" name="btnDot" value="." onClick="valuecal(btnDot.value)" /></td>
+                    <td><input class="button btn-z" type="button" name="btnAddition" value="+" onClick="valuecal(btnAddition.value)" /></td>
                 </tr>
             </table>
+            
+            <!-- Membuat Tabel Untuk Mangakali Lebar Button-->
             <table>
                 <tr>
                     <td><input class="button btn-y" type="button" value="C" onclick="clean()"></td>
-                    <td><input class="button btn-x btn-z" type="button" name="result" value="="
-                            onClick="evalresult.value=eval(evalresult.value)" /></td>
+                    <td><input class="button btn-x btn-z" type="button" name="result" value="=" onClick="evalresult.value=eval(evalresult.value)" /></td>
                 </tr>
             </table>
-
     </div>
     </form>
     </div>
 </body>
-
 </html>
