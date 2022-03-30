@@ -1,5 +1,5 @@
-       //fungsi aritmatika
-       function valuecal(result) {
+    //fungsi aritmatika
+    function valuecal(result) {
         kalkulatorform.evalresult.value = kalkulatorform.evalresult.value + result;
     }
     //Besihin texarea
